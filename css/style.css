@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(249, 249, 249);
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: white !important;
+    border: none;
+    border-radius: 0;
+}
+
+.whole-body-content {
+    display: flex;
+}
+
+.btn-ppty {
+    background: transparent;
+    border: none;
+    box-shadow: none !important;
+    color: black;
+}
+
+div .col-md-9 .nav-item i {
+    color: grey;
+    font-size: 20px;
+}
+
+.col-md-4 {
+    align-items: center;
+}
+
+/* ---------------------------
+    SIDEBAR STYLE STARTS HERE
+   --------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 240px;
+    max-width: 240px;
+    background: white;
+    color: inherit;
+    transition: all 0.3s;
+    max-height: 100vh;
+    position: sticky;
+    top: 70px;
+    left: 0;
+    overflow-y: auto;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #f1f1f1;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* active properties */
+#sidebar.active {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100vh;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.video-page.active {
+    display: none;
+}
+
+#sidebar.active hr,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .minibar-hide,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: red;
+}
+
+.wrapper #sidebar ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+#sidebar ul div {
+    padding: 10px;
+}
+
+#sidebar ul div a {
+    text-decoration: none;
+    color: inherit;
+    padding-right: 5px;
+    font-size: 0.9rem;
+}
+
+footer {
+    padding-left: 10px;
+}
+/* ---------------------------
+    SIDEBAR STYLE ENDS HERE
+------------------------------ */
+
+/* .wrapper #sidebar ul li .fas-home {
+    color: red;
+} */
+
+.dropdown .dropdown-menu {
+    width: 220px;
+    border-radius: 0;
+    line-height: 2rem;
+}
+
+.menu-search-box {
+    padding-right: 250px;
+    border: solid 1px black;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+form .btn {
+    border-radius: 0;
+    background-color: #f8f8f8
+}
+
+.video-thumbnails {
+    padding: 5px;
+}
+
+.flex-alignment {
+    display: flex;
+}
+
+.thumbnail-row-alignment {
+    max-width: 100vw;
+    padding-bottom: 25px;
+}
+
+.first-thumb {
+    padding-right: 15px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.card-body {
+    display: flex;
+    padding-left: 0;
+}
+
+.thumb-image {
+    max-height: 143px;
+    overflow: hidden;
+}
+
+.card-text-content h6 {
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.card-image-content img{
+    padding-right: 8px;
+}
+
+.card-text-content a{
+    text-decoration: none;
+    color: #555151;
+}
+
+.each-thumb-space {
+    max-width: 25%;
+}
+
+.left-padding {
+    padding-left: 15px;
+}
+
+.right-padding {
+    padding-right: 15px;
+}
+
+/* TRENDING FORMAT STARTS HERE */
+
+.trending-thumbnails {
+    width: 100%;
+}
+
+.trending-icon-font-increase {
+    font-size: 3rem;
+}
+
+.trending-icon-bg {
+    background: grey;
+    border: solid grey 10px;
+    border-radius: 100px;
+}
+
+.trending-thumbnails .item-icons {
+    border-bottom: black;
+}
+
+.trending-thumbnails .item-icons div {
+    padding-right: 70px;
+
+}
+.contain-trending {
+    width: 75%;
+}
+
+.item-icons {
+    text-align: center;
+}
+
+.trending-thumbnails .horizontal-thumbnail a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.thumbnail-info {
+    margin-bottom: 15px;
+}
+
+.horizontal-thumbnail .thumbnail-image img {
+    width: 246px;
+}
+
+/* TRENDING FORMAT ENDS HERE */
+
+.no-padding {
+    padding: 0;
+}
+
+.reduce-text-size {
+    font-size: 0.9rem;
+}
+
+.video-thumbnails .manage-area {
+    justify-content: space-between;
+}
+
+.video-thumbnails .manage-area a {
+    text-decoration: none;
+    color: inherit;
+}

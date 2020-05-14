@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/video.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
+        <script src="https://kit.fontawesome.com/5183653b0f.js" crossorigin="anonymous"></script>
+        <title> SterlingTube video</title>
+    </head>
+    <body>
+      <div class="video-wrapper">
+        <nav id="siderbar-plus-video">
+          <ul class="list-unstyled components">
+              <li><a href="../index.html"><i class="fas fa-home" title="Home"></i>Home</a></li>
+              <li><a href="trending.html" title="Trending"><i class="fas fa-fire"></i>  Trending</a></li>
+              <li><a href="subscription.html" title='Subscriptions'><i class="fas fa-tv"></i>  Subscriptions</a></li>
+              <hr>
+              <li><a href="#"><i class="fas fa-address-book"></i>  Library</a></li>
+              <li><a href="#" title="History"><i class="fas fa-history"></i> History</a></li>
+              <li><a href="#" title="Your videos"><i class="fab fa-youtube"></i>   Your videos</a></li>
+              <li><a href="#" title="Watch later"><i class="fas fa-clock"></i>Watch later</a></li>
+              <li><a href="#"><i class="far fa-thumbs-up"></i>Liked videos</a></li>
+              <li><a href="#" title="Liked videos"><i class="fas fa-chevron-down"></i></i> Show more</a></li>
+              <hr>
+              <p class="left-padding "><b>SUBSCRIPTIONS</b></p>
+              <li><a href="#"><i class="fas fa-user-secret"></i>Compliance</a></li>
+              <li><a href="#"><i class="fas fa-user-clock"></i>Customer Onboarding</a></li>
+              <li title="Arrowverse"><a href="#"><i class="fas fa-user-circle"></i>omini channel</a></li>
+                    <li title="The Flash"><a href="#"><i class="fas fa-user-circle"></i>MD's channel</a></li>
+                    <li title="Gotham Hero"><a href="#"><i class="fas fa-user-circle"></i>COO channel</a></li>
+                    <li title="Risky blogger"><a href="#"><i class="fas fa-user-circle"></i>cheque truncation</a></li>
+                    <li><a href="#" title="Show more"><i class="fas fa-chevron-down"></i></i> Show more</a></li>
+                    <hr>
+                    <p class="left-padding "><b>GET MORE HERE</b></p>
+                    <li title="Premium user"><a href="#"><i class="fab fa-youtube"></i>Premium user</a></li>
+                    <li title="Gaming"><a href="#"><i class="fas fa-gamepad"></i>Gaming</a></li>
+                    <li title="Live"><a href="#"><i class="fas fa-satellite-dish"></i>     Live</a></li>
+                    <hr>
+                    <li title="Settings"><a href="#"><i class="fas fa-cog"></i>     Settings</a></li>
+                    <li title="Report history"><a href="#"><i class="fab fa-font-awesome-flag"></i>     Report history</a></li>
+                    <li title="Help"><a href="#"><i class="far fa-question-circle"></i>     Help</a></li>
+                    <li><a href="#" title="Send feedback"><i class="far fa-comment-dots"></i> Send feedback</a></li>
+                    <hr>
+                    <div>
+                      <a href="#">About</a>
+                      <a href="#">Press</a>
+                      <a href="#">Copyright</a>
+                      <a href="#">Contact us</a>
+                      <a href="#">Creators</a>
+                      <a href="#">Advertise</a>
+                      <a href="#">Developers</a>
+                    </div>
+                    <div>
+                      <a href="#">Terms</a>
+                      <a href="#">Privacy</a>
+                      <a href="#">Policy & Safety</a>
+                      <a href="#">Test new features</a>
+                      </div>
+          </ul>
+          <footer style="margin-bottom:100px">© 2020 osih Incorporated</footer>
+        </nav>
+        <div id="content">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <button type="button" id="siderbar-plus-videoCollapse" class="btn btn-ppty">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+                <a class="navbar-brand col-md-3" href="#" title="SterlingTube Home"><img src="../images/sterling logo.png" width="30" class="d-inline-block align-top" alt="">
+                  <span > SterlingTube</span>
+                    </a>
+
+                <div class="collapse navbar-collapse  col-md-9" id="navbarSupportedContent">
+                  <form class="form-inline my-2 my-lg-0 col-md-8">
+                    <input class="form-control mr-sm-0 menu-search-box" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+                    <ul class="nav navbar-nav mr-auto  col-md-4 justify-content-end">
+                      <li class="nav-item right-padding" title="Create a video and more">
+                        <a href="#"><i class="fas fa-video"></i></a>
+                      </li>
+                      <li class="nav-item dropdown right-padding" title="SterlingTube apps">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-border-none"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#"><i class="fab fa-youtube right-padding" style="color: red;"></i> One TV</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#"><i class="fab fa-youtube right-padding" style="color: red;"></i> One Music</a>
+                          <a class="dropdown-item" href="#"><i class="fab fa-youtube right-padding" style="color: red;"></i> RadioOne</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#"><i class="fab fa-youtube right-padding" style="color: red;"></i> One Academy</a>
+                          <a class="dropdown-item" href="#"><i class="fab fa-youtube right-padding" style="color: red;"></i> One Talent</a>
+                        </div>
+                      </li>
+                      <li class="nav-item right-padding" title="Notifications">
+                        <a href="#"><i class="fas fa-bell"></i></a>
+                      </li>
+                      <li class="nav-item right-padding">
+                        <a href="#"><i class="fas fa-user-circle"></i></a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+          <div class="whole-body-content content-fill-view-width">
+            <div class="videoplay-content flex-alignment video-thumbnails">
+              <div class="flex-alignment video-space">
+                <div class="videoplay">
+                    <video src="../video/intro.mp4" controls autoplay></video>
+                </div>
+                <div class="video-information" style="width: 798px;">
+                    <h4>Intro Vdeo</h4>
+                    <p class="flex-alignment">
+                      <span>658,096,156 views. 18 mar 2020</span>
+                      <span class="flex-alignment">
+                        <span><i class="far fa-thumbs-up"></i> 1,686</span>
+                        <span class="left-padding"><i class="far fa-thumbs-down"></i> 19</span>
+                        <span class="left-padding"><i class="fas fa-share"></i> SHARE</span>
+                        <span class="left-padding"><i class="far fa-plus-square"></i> SAVE</span>
+                        <span class="left-padding"><i class="fas fa-ellipsis-h"></i></span>
+                      </span>
+                    </p><hr>
+                    <div class="more-information">
+                      <div class="channel-info-plus-sub flex-alignment" style="justify-content: space-between;">
+                        <div class="channel-info flex-alignment">
+                          <img src="../images/cart.png" alt="channel logo" style="height: 48px;">
+                          <div>
+                            <p style="margin-bottom: -5px;"><b> Intro Master</b></p>
+                            <p>2k subscribers</p>
+                          </div>
+                        </div>
+                        <div class="subscribe">
+                          <button type="button" class="btn btn-secondary">SUBSCRIBED</button>
+                          <i class="fas fa-bell left-padding" style="color: grey;"></i>
+                        </div>
+                      </div>
+                      <div class="video-details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit pariatur libero nam itaque quos officiis a modi nulla dignissimos illum numquam natus, deserunt ea ipsa?</p>
+                        <p> <b><a href="#">SHOW MORE</a></b></p>
+                      </div>
+                      <hr>
+                    </div>
+                    <div class="comment">
+                      <p style="text-align: center; margin-top: 50px;">Thanks for watching</p>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="up-next-section left-padding">
+                <div class="up-next-with-toggle flex-alignment" style="align-items: flex-start;">
+                  <p style="font-weight: bold;">Up next</p>
+                  <div class="flex-alignment" style="align-items: center;">
+                    <h6 class="right-padding">AUTOPLAY</h6>
+                    <label class="switch">
+                      <input type="checkbox" checked>
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="first-thumb video-thumbnails ">
+                    <div class="card flex-alignment up-next-thumbnail">
+                      <div class="thumb-image up-next-thumb-image">
+                        <a href="#"><img src="../images/ronaldinho.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                      </div>
+                      
+                      <div class="card-body no-padding up-next-thumb-details">
+                        <div class="card-text-content left-padding">
+                          <h6>
+                            <a href="#">ronaldinho</a>
+                          </h6>
+                          <a href="#">uploaded by ronaldinho <i class="far fa-check-circle"></i></a><br>
+                          <span><a href="#">9M views</a></span>
+                          <span> . </span>
+                          <span><a href="#">12 day ago </a></span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="first-thumb video-thumbnails">
+                    <div class="card flex-alignment up-next-thumbnail">
+                      <div class="thumb-image up-next-thumb-image">
+                        <a href="#"><img src="../images/micheal.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                      </div>
+                      
+                      <div class="card-body no-padding up-next-thumb-details">
+                        
+                        <div class="card-text-content left-padding">
+                          <h6>
+                            <a href="#">michael Jackson </a>
+                          </h6>
+                          <a href="#">Uploaded by micheal <i class="far fa-check-circle"></i></a><br>
+                          <span><a href="#">3M views</a></span>
+                          <span> . </span>
+                          <span><a href="#">14 days ago </a></span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="first-thumb video-thumbnails">
+                    <div class="card flex-alignment up-next-thumbnail">
+                      <div class="thumb-image up-next-thumb-image">
+                        <a href="#"><img src="../images/macaroni.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                      </div>
+                      
+                      <div class="card-body no-padding up-next-thumb-details">
+                        
+                        <div class="card-text-content left-padding">
+                          <h6>
+                            <a href="#">macaroni number 2</a>
+                          </h6>
+                          <a href="#">uploaded by macaroni <i class="far fa-check-circle"></i></a><br>
+                          <span><a href="#">2M views</a></span>
+                          <span> . </span>
+                          <span><a href="#">11 day ago </a></span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="first-thumb video-thumbnails ">
+                  <div class="card flex-alignment up-next-thumbnail">
+                    <div class="thumb-image up-next-thumb-image">
+                      <a href="#"><img src="../images/baba.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                    </div>
+                    
+                    <div class="card-body no-padding up-next-thumb-details">
+                      <div class="card-text-content left-padding">
+                        <h6>
+                          <a href="#">FUNNY NEW COMMEDY</a>
+                        </h6>
+                        <a href="#">Uploaded by Funny Bone <i class="far fa-check-circle"></i></a><br>
+                        <span><a href="#">9M views</a></span>
+                        <span> . </span>
+                        <span><a href="#">12 days ago </a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="first-thumb video-thumbnails">
+                  <div class="card flex-alignment up-next-thumbnail">
+                    <div class="thumb-image up-next-thumb-image">
+                      <a href="#"><img src="../images/ibu.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                    </div>
+                    
+                    <div class="card-body no-padding up-next-thumb-details">
+                      
+                      <div class="card-text-content left-padding">
+                        <h6>
+                          <a href="#">mr ibu in london </a>
+                        </h6>
+                        <a href="#">uploaded by mr ibu <i class="far fa-check-circle"></i></a><br>
+                        <span><a href="#">9M views</a></span>
+                        <span> . </span>
+                        <span><a href="#">15 days ago </a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="first-thumb video-thumbnails">
+                  <div class="card flex-alignment up-next-thumbnail">
+                    <div class="thumb-image up-next-thumb-image">
+                      <a href="#"><img src="../images/casket.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                    </div>
+                    
+                    <div class="card-body no-padding up-next-thumb-details">
+                      
+                      <div class="card-text-content left-padding">
+                        <h6>
+                          <a href="#">stay at home or dance with us</a>
+                        </h6>
+                        <a href="#">uploaded by casket men <i class="far fa-check-circle"></i></a><br>
+                        <span><a href="#">9M views</a></span>
+                        <span> . </span>
+                        <span><a href="#">15 days ago </a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="first-thumb video-thumbnails ">
+                  <div class="card flex-alignment up-next-thumbnail">
+                    <div class="thumb-image up-next-thumb-image">
+                      <a href="#"><img src="../images/thetrain.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                    </div>
+                    
+                    <div class="card-body no-padding up-next-thumb-details">
+                      <div class="card-text-content left-padding">
+                        <h6>
+                          <a href="#">new movie the train</a>
+                        </h6>
+                        <a href="#">uploaded by bahose <i class="far fa-check-circle"></i></a><br>
+                        <span><a href="#">9M views</a></span>
+                        <span> . </span>
+                        <span><a href="#">1 day ago </a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="first-thumb video-thumbnails">
+                  <div class="card flex-alignment up-next-thumbnail">
+                    <div class="thumb-image up-next-thumb-image">
+                      <a href="#"><img src="../images/macaroni.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                    </div>
+                    
+                    <div class="card-body no-padding up-next-thumb-details">
+                      
+                      <div class="card-text-content left-padding">
+                        <h6>
+                          <a href="#">you are doing well </a>
+                        </h6>
+                        <a href="#">uploaded by macaroni <i class="far fa-check-circle"></i></a><br>
+                        <span><a href="#">9M views</a></span>
+                        <span> . </span>
+                        <span><a href="#">1 day ago </a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="first-thumb video-thumbnails">
+                  <div class="card flex-alignment up-next-thumbnail">
+                    <div class="thumb-image up-next-thumb-image">
+                      <a href="#"><img src="../images/ronaldinho.PNG" class="card-img-top" alt="thumbnail for video"></a>
+                    </div>
+                    
+                    <div class="card-body no-padding up-next-thumb-details">
+                      
+                      <div class="card-text-content left-padding">
+                        <h6>
+                          <a href="#">ronaldinho</a>
+                        </h6>
+                        <a href="#">uploaded by ronaldinho <i class="far fa-check-circle"></i></a><br>
+                        <span><a href="#">9M views</a></span>
+                        <span> . </span>
+                        <span><a href="#">1 day ago </a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>    
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        
+        <script type="text/javascript">
+          $(document).ready(function () {
+              $("#siderbar-plus-video").mCustomScrollbar({
+                  theme: "minimal"
+              });
+
+              $('#siderbar-plus-videoCollapse, .overlay').on('click', function () {
+                  $('#siderbar-plus-video').toggleClass('active');
+                  $('.overlay').toggleClass('active');
+              });
+          });
+        </script>
+    </body>
+</html>
